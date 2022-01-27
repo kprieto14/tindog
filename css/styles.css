@@ -1,0 +1,188 @@
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+body {
+  font-family: Montserrat-black;
+  text-align: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* sections */
+
+.white-section {
+  background-color: white;
+}
+
+.pink-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+/* Navigation Bar */
+
+.nav-pad {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat-Light;
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.download-btn {
+  margin: 5% 3% 10% 0;
+}
+
+/* Title*/
+
+#title {
+  text-align: left;
+}
+
+.title-img {
+  width:20%;
+  position: absolute;
+  transform: rotate(25deg);
+  margin-right: auto;
+  left: 55%;
+}
+
+@media screen and (max-width: 1284px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+      position: static;
+      margin-left: auto;
+      transform: rotate(0deg);
+      width: 50%;
+    }
+}
+
+.title-head {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+/* Features Section */
+
+#features {
+  padding-top: 7%;
+  position: relative;
+}
+
+.feat-icons {
+  color: #EF8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.feat-icons:hover {
+  color: #FF4C68
+}
+
+.feat-heading {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+}
+
+.feat-p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.feat-box {
+   padding: 0 31px;
+}
+
+/* Testimonials */
+
+#testimonials, #press {
+  background-color: #EF8172;
+}
+
+#carouseltestimonials {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 3% 0 0;
+}
+
+.pricing-colomn {
+  padding: 3% 2%;
+}
+
+.month-text {
+  font-family: Montserrat-bold;
+}
+
+/* cta */
+
+#cta {
+  padding-top: 3%;
+}
+
+.cta-text {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+
+.cta-container {
+  padding: 2% 15% 0;
+}
+
+/* footer */
+
+#footer {
+  margin: 5% 15%;
+  line-height: 1.5;
+}
+
+.footer-icons {
+  margin: 2% 1%;
+}
